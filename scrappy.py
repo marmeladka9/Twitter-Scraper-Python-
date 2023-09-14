@@ -3,10 +3,10 @@ import pandas as pd
 
 # Initialize the Twitter app
 app = Twitter("session")
-app.sign_in('Vladislava6792', 'nvaltaas30061980')
+app.sign_in('username', 'password')
 
 # Search for tweets
-tweets = app.search('Apple', 50)
+tweets = app.search('query', 50)
 
 # Create an empty list to store tweet data
 tweet_data = []
